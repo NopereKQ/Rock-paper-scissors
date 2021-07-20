@@ -56,3 +56,32 @@
 .score {
     margin-top: 5rem;
 }
+
+.box {
+    width: 150px;
+    height: 185px;
+    background: #2d2d31;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 22px;
+    flex-direction: column;
+}
+
+.yourscore, .autoscore {
+    margin-top: 1rem;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.box:nth-child(1) {
+    position: absolute;
+    left: 12%;
+}
+
+.box:nth-child(2) {
+    position: absolute;
+    right: 12%;
+}
