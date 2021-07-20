@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    color: #fff;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background: #18181b;
+}
+
+.game {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.game .game__main {
+    display: flex;
+}
+
+.game .game__item {
+    height: 225px;
+    width: 225px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 4rem;
+}
+
+.game__item i {
+    color: #fff;
+    font-size: 100px;
+}
+
+.turns {
+    margin-top: 2rem;
+    font-weight: 500;
+    display: flex;
+    /* flex-direction: column; */
+    text-align: center;
+}
+
+.score {
+    margin-top: 5rem;
+}
